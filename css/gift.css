@@ -1,3 +1,19 @@
+.w-embed-youtubevideo {
+  width: 100%;
+  position: relative;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.w-embed-youtubevideo:empty {
+  min-height: 75px;
+  padding-bottom: 56.25%;
+}
+
 .body {
   background-color: #000;
   color: #000;
@@ -21,6 +37,11 @@
 
 .nav-link:hover {
   opacity: 0.5;
+}
+
+.nav-link.w--current {
+  color: #fff;
+  font-weight: 700;
 }
 
 .nav-link.last {
@@ -68,6 +89,12 @@
 .heading.subpage {
   position: static;
   margin-top: 60px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+}
+
+.heading.subpage.place {
+  font-weight: 700;
 }
 
 .structure {
@@ -140,6 +167,10 @@
   color: #000;
   line-height: 44px;
   text-align: center;
+}
+
+.heading-2.bl.left {
+  text-align: left;
 }
 
 .description {
@@ -291,7 +322,7 @@
 
 .footer {
   margin-bottom: 0px;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 .song {
@@ -409,4 +440,36 @@
 
 .text-span-2 {
   text-decoration: underline;
+}
+
+.video {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.map {
+  margin-top: 60px;
+}
+
+.crosswords {
+  margin-top: 40px;
+}
+
+.html-embed {
+  width: 200px;
+}
+
+.cross-words {
+  width: 1020px;
+}
+
+.puzzle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }

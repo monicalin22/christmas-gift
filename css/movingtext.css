@@ -1,0 +1,81 @@
+  .scroll {
+    margin-top: 10px;
+    text-align: left-align;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    overflow: hidden;
+    margin: 6.25em auto;
+    padding-top:1em;
+    height: 3.8em;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  ul,
+  li {
+    height: 13.5em;
+    width: 100%;
+  }
+  
+  li {
+    list-style-type: none;
+    margin: 0px 0 1px 0;
+    height: 1em;
+    padding: 0px 0 0px 0;
+    font-size: 3.6em;
+    width: 100%;
+  }
+  
+  .t {
+    animation-name: titleflip;
+    animation: titleflip 10s ease-in-out infinite;
+    -webkit-animation-name: titleflip;
+    -webkit-animation: titleflip 10s ease-in-out infinite;
+  }
+  
+
+  @-webkit-keyframes titleflip {
+    0%,
+    14.3% {
+      -webkit-transform: translate(0px, 0em);
+      -moz-transform: translate(0px, 0em);
+    }
+    14.3%,
+    28.7% {
+        -webkit-transform: translate(0px, -3.4em);
+        -moz-transform: translate(0px, -3.4em);
+      }
+      28.7%,
+      43% {
+        -webkit-transform: translate(0px, -7.2em);
+        -moz-transform: translate(0px, -7.2em);
+      }
+      43%,
+      57.3% {
+        -webkit-transform: translate(0px, -11.4em);
+        -moz-transform: translate(0px, -11.4em);
+      }
+      57.3%,
+      71.7% {
+        -webkit-transform: translate(0px, -15em);
+        -moz-transform: translate(0px, -15em);
+      }
+      71.7%,
+      86.3% {
+        -webkit-transform: translate(0px, -18.4em);
+        -moz-transform: translate(0px, -18.4em);
+      }
+      86.3%,
+      100% {
+        -webkit-transform: translate(0px, -22.2em);
+        -moz-transform: translate(0px, -22.2em);
+      }
+      100%,
+      0% {
+        -webkit-transform: translate(0px, 0em);
+        -moz-transform: translate(0px, 0em);
+      }
+
+  }
+  
