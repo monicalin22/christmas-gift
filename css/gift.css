@@ -12,6 +12,8 @@
 }
 
 .nav-link {
+  margin: 20px;
+  padding: 0px;
   font-family: pragmatica-slabserif, sans-serif;
   color: #fff;
   font-weight: 400;
@@ -23,6 +25,18 @@
 
 .nav-link.last {
   padding-right: 0px;
+}
+
+.nav-link.last.w--current {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .image {
@@ -49,6 +63,11 @@
   font-size: 56px;
   line-height: 70px;
   font-weight: 400;
+}
+
+.heading.subpage {
+  position: static;
+  margin-top: 60px;
 }
 
 .structure {
@@ -88,6 +107,18 @@
   box-shadow: 14px 14px 0 0 #000;
 }
 
+.photo.black.sp {
+  height: 360px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 4px solid #000;
+}
+
+.photo.special {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .heading-2 {
   font-family: acumin-pro, sans-serif;
   color: #fff;
@@ -121,6 +152,23 @@
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #fff;
+}
+
+.white._2020 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 110px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .button {
@@ -166,6 +214,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 50px;
+  margin-bottom: 48px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -193,6 +242,11 @@
   font-size: 24px;
   line-height: 32px;
   font-weight: 400;
+}
+
+.homep.elsep {
+  width: 80%;
+  margin-top: 0px;
 }
 
 .link-block {
@@ -255,7 +309,7 @@
   font-family: acumin-pro, sans-serif;
   color: #fff;
   font-size: 32px;
-  line-height: 40px;
+  line-height: 64px;
   font-weight: 400;
 }
 
@@ -304,3 +358,55 @@
   opacity: 0.5;
 }
 
+._2020columns {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+._2020col {
+  margin-top: 40px;
+  padding-left: 0px;
+}
+
+._2020col2 {
+  padding-right: 0px;
+}
+
+.aligncol {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 20px;
+  padding-left: 20px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.intro2020col {
+  padding-left: 0px;
+}
+
+.writing {
+  margin-top: 60px;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+
+.paragraph {
+  font-family: acumin-pro, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.tetris {
+  margin-bottom: 40px;
+}
+
+.text-span-2 {
+  text-decoration: underline;
+}
