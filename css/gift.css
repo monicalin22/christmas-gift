@@ -173,6 +173,12 @@
   text-align: left;
 }
 
+.heading-2.tetris {
+  width: 20%;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
 .description {
   width: 56%;
 }
@@ -248,6 +254,10 @@
   opacity: 0.8;
 }
 
+.button.rev {
+  background-color: #fff;
+}
+
 .container {
   display: -webkit-box;
   display: -webkit-flex;
@@ -272,6 +282,10 @@
   font-size: 20px;
   font-weight: 400;
   text-decoration: none;
+}
+
+.buttontext.rev {
+  color: #000;
 }
 
 .homep {
@@ -337,6 +351,7 @@
 .footer {
   margin-bottom: 0px;
   padding-bottom: 80px;
+  padding-left: 0px;
 }
 
 .song {
@@ -452,6 +467,10 @@
   margin-bottom: 40px;
 }
 
+.game {
+  margin-bottom: 100px;
+}
+
 .text-span-2 {
   text-decoration: underline;
 }
@@ -554,3 +573,8 @@
 .flower {
   margin-top: 40px;
 }
+
+.halink {
+  text-decoration: none;
+}
+
