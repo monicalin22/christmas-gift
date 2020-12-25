@@ -1,25 +1,24 @@
- .wrapper {
-    overflow: hidden;
-    margin-top: 10px;
-    margin-bottom: 60px;
-  }
-  
-  .sliding-background {
-    background: url("images/Slide.png") repeat-x;
-    height: 1200px;
-    width: 4238px;
-    animation: slide 60s linear infinite;
-  }
-  
-  @keyframes slide {
-    0% {
-        transform: translate3d(0, 0, 0);
-    }
-    100% {
-        transform: translate3d(-1692px, 0, 0);
-    }
-  }
+.carousel {
+  padding-top: 120px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
 
+.sliding-background {
+  background: url("../images/Slide.png") repeat-x;
+  height: 620px;
+  width: 6283px;
+  animation: slide 50s linear infinite;
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
 
 /* Rose */
 
