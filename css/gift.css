@@ -170,7 +170,10 @@
 }
 
 .heading-2.bl.left {
-  text-align: left;
+  width: auto;
+  line-height: 50px;
+  text-align: center;
+  width: 80%;
 }
 
 .heading-2.tetris {
@@ -213,10 +216,10 @@
 .white._2020.d {
   padding-right: 80px;
   padding-left: 80px;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .button {
@@ -470,7 +473,14 @@
   height: 800px;
   margin-bottom: 40px;
   padding-top: 10px;
-  background-color: #000;
+  background-color: rgb(19, 21, 25);
+}
+
+.tet {
+  width: 100%;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  background-color: black;
 }
 
 .game {
@@ -583,4 +593,12 @@
 
 .halink {
   text-decoration: none;
+}
+
+.blackjack {
+  margin-top: 40px;
+}
+
+.text {
+  margin-top: 60px;
 }
